@@ -11,6 +11,7 @@ class InvestmentsViewController: UIViewController {
 
     @IBOutlet weak var investmentsGoalInput: UITextField!
     @IBOutlet weak var investmentsLabel: UILabel!
+    @IBOutlet weak var investmentsGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class InvestmentsViewController: UIViewController {
     }
     
     @IBAction func investmentsGoalButtonTapped(_ sender: UIButton) {
+        investmentsGoalOutput.text = "Goal: $\(investmentsGoalInput.text!)"
     }
     
     /*

@@ -11,6 +11,7 @@ class EmergencyViewController: UIViewController {
 
     @IBOutlet weak var emergencyGoalInput: UITextField!
     @IBOutlet weak var emergencyLabel: UILabel!
+    @IBOutlet weak var emergencyGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class EmergencyViewController: UIViewController {
     }
     
     @IBAction func emergencyGoalButtonTapped(_ sender: UIButton) {
+        emergencyGoalOutput.text = "Goal: $\(emergencyGoalInput.text!)"
     }
     
     /*

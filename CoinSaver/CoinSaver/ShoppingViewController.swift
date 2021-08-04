@@ -11,6 +11,7 @@ class ShoppingViewController: UIViewController {
 
     @IBOutlet weak var shoppingGoalInput: UITextField!
     @IBOutlet weak var shoppingLabel: UILabel!
+    @IBOutlet weak var shoppingGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class ShoppingViewController: UIViewController {
     }
     
     @IBAction func shoppingGoalButtonTapped(_ sender: UIButton) {
+        shoppingGoalOutput.text = "Goal: $\(shoppingGoalInput.text!)"
     }
     
     /*

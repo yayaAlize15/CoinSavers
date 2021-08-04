@@ -11,6 +11,7 @@ class ActivitiesViewController: UIViewController {
 
     @IBOutlet weak var activitiesGoalInput: UITextField!
     @IBOutlet weak var activitiesLabel: UILabel!
+    @IBOutlet weak var activitiesGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class ActivitiesViewController: UIViewController {
     }
     
     @IBAction func activitiesGoalButtonTapped(_ sender: UIButton) {
+        activitiesGoalOutput.text = "Goal: $\(activitiesGoalInput.text!)"
     }
     
     /*

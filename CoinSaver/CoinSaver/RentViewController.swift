@@ -7,27 +7,23 @@
 
 import UIKit
 
-class RentViewController: UIViewController, UITextFieldDelegate {
+class RentViewController: UIViewController {
 
     @IBOutlet weak var rentGoalInput: UITextField!
-    @IBOutlet weak var rentGoalDisplay: UITextView!
     @IBOutlet weak var rentLabel: UILabel!
+    @IBOutlet weak var rentGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        rentGoalInput.delegate = self
 
         // Do any additional setup after loading the view.
     }
     
     @IBAction func rentGoalButtonTapped(_ sender: UIButton) {
-        rentGoalDisplay.text = "Goal: $\(rentGoalInput.text!)"
+        rentGoalOutput.text = "Goal: $\(rentGoalInput.text!)"
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        rentGoalInput.resignFirstResponder()
-    }
     
     /*
     // MARK: - Navigation
@@ -41,9 +37,3 @@ class RentViewController: UIViewController, UITextFieldDelegate {
 
 }
 
-extension ViewController: UITextFieldDelegate {
-    internal func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
-    }
-}

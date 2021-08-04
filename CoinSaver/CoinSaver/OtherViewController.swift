@@ -11,6 +11,7 @@ class OtherViewController: UIViewController {
 
     @IBOutlet weak var otherGoalInput: UITextField!
     @IBOutlet weak var otherLabel: UILabel!
+    @IBOutlet weak var otherGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class OtherViewController: UIViewController {
     }
     
     @IBAction func otherGoalButtonTapped(_ sender: Any) {
+        otherGoalOutput.text = "Goal: $\(otherGoalInput.text!)"
     }
     
     /*

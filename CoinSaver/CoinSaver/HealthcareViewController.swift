@@ -11,6 +11,7 @@ class HealthcareViewController: UIViewController {
 
     @IBOutlet weak var healthcareGoalInput: UITextField!
     @IBOutlet weak var healthcareLabel: UILabel!
+    @IBOutlet weak var healthcareGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class HealthcareViewController: UIViewController {
     }
     
     @IBAction func healthcareGoalButtonTapped(_ sender: UIButton) {
+        healthcareGoalOutput.text = "Goal: $\(healthcareGoalInput.text!)"
     }
     
     /*

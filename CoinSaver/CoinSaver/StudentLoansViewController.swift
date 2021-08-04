@@ -11,6 +11,7 @@ class StudentLoansViewController: UIViewController {
 
     @IBOutlet weak var studentLoansGoalInput: UITextField!
     @IBOutlet weak var studentLoansLabel: UILabel!
+    @IBOutlet weak var studentLoansGoalOutput: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,7 @@ class StudentLoansViewController: UIViewController {
     }
     
     @IBAction func studentLoansGoalButtonTapped(_ sender: UIButton) {
+        studentLoansGoalOutput.text = "Goal: $\(studentLoansGoalInput.text!)"
     }
     
     /*
