@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9C3CE8D26B9B35D003821DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CE8C26B9B35D003821DB /* AppDelegate.swift */; };
+		B9C3CE8F26B9B35D003821DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CE8E26B9B35D003821DB /* SceneDelegate.swift */; };
+		B9C3CE9126B9B35D003821DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CE9026B9B35D003821DB /* ViewController.swift */; };
+		B9C3CE9426B9B35D003821DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C3CE9226B9B35D003821DB /* Main.storyboard */; };
+		B9C3CE9726B9B35D003821DB /* CoinSaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CE9526B9B35D003821DB /* CoinSaver.xcdatamodeld */; };
+		B9C3CE9926B9B362003821DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C3CE9826B9B362003821DB /* Assets.xcassets */; };
+		B9C3CE9C26B9B362003821DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C3CE9A26B9B362003821DB /* LaunchScreen.storyboard */; };
+		B9C3CEA726B9B363003821DB /* CoinSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEA626B9B363003821DB /* CoinSaverTests.swift */; };
+		B9C3CEB226B9B363003821DB /* CoinSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEB126B9B363003821DB /* CoinSaverUITests.swift */; };
+		B9C3CEC226BA1ABE003821DB /* RentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC126BA1ABE003821DB /* RentViewController.swift */; };
+		B9C3CEC426BA1B0A003821DB /* GroceriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC326BA1B0A003821DB /* GroceriesViewController.swift */; };
+		B9C3CEC626BA1B31003821DB /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC526BA1B31003821DB /* ActivitiesViewController.swift */; };
+		B9C3CEC826BA1B4C003821DB /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC726BA1B4C003821DB /* ShoppingViewController.swift */; };
+		B9C3CECA26BA1B6C003821DB /* TransportationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CEC926BA1B6C003821DB /* TransportationViewController.swift */; };
+		B9C3CECC26BA1B87003821DB /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3CECB26BA1B87003821DB /* OtherViewController.swift */; };
+		BDD1CB2326BAFE7F00B2A609 /* InvestmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2226BAFE7F00B2A609 /* InvestmentsViewController.swift */; };
+		BDD1CB2526BAFE9000B2A609 /* StudentLoansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2426BAFE9000B2A609 /* StudentLoansViewController.swift */; };
+		BDD1CB2726BAFE9E00B2A609 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2626BAFE9E00B2A609 /* EmergencyViewController.swift */; };
+		BDD1CB2926BAFEAE00B2A609 /* HealthcareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2826BAFEAE00B2A609 /* HealthcareViewController.swift */; };
+		BDD1CB2B26BAFEC000B2A609 /* SavingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2A26BAFEC000B2A609 /* SavingsViewController.swift */; };
+		BDD1CB2D26BB052B00B2A609 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */; };
+		BDD1CB2F26BB115100B2A609 /* SpendingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */; };
+		BDD1CB3126BB11A300B2A609 /* SavingsCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9C3CEA326B9B363003821DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C3CE8126B9B35D003821DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C3CE8826B9B35D003821DB;
+			remoteInfo = CoinSaver;
+		};
+		B9C3CEAE26B9B363003821DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C3CE8126B9B35D003821DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9C3CE8826B9B35D003821DB;
+			remoteInfo = CoinSaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9C3CE8926B9B35D003821DB /* CoinSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C3CE8C26B9B35D003821DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9C3CE8E26B9B35D003821DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9C3CE9026B9B35D003821DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9C3CE9326B9B35D003821DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9C3CE9626B9B35D003821DB /* CoinSaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoinSaver.xcdatamodel; sourceTree = "<group>"; };
+		B9C3CE9826B9B362003821DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9C3CE9B26B9B362003821DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9C3CE9D26B9B362003821DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C3CEA226B9B363003821DB /* CoinSaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinSaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C3CEA626B9B363003821DB /* CoinSaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSaverTests.swift; sourceTree = "<group>"; };
+		B9C3CEA826B9B363003821DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C3CEAD26B9B363003821DB /* CoinSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C3CEB126B9B363003821DB /* CoinSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSaverUITests.swift; sourceTree = "<group>"; };
+		B9C3CEB326B9B363003821DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C3CEC126BA1ABE003821DB /* RentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentViewController.swift; sourceTree = "<group>"; };
+		B9C3CEC326BA1B0A003821DB /* GroceriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesViewController.swift; sourceTree = "<group>"; };
+		B9C3CEC526BA1B31003821DB /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		B9C3CEC726BA1B4C003821DB /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
+		B9C3CEC926BA1B6C003821DB /* TransportationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportationViewController.swift; sourceTree = "<group>"; };
+		B9C3CECB26BA1B87003821DB /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2226BAFE7F00B2A609 /* InvestmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2426BAFE9000B2A609 /* StudentLoansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoansViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2626BAFE9E00B2A609 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2826BAFEAE00B2A609 /* HealthcareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2A26BAFEC000B2A609 /* SavingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingsViewController.swift; sourceTree = "<group>"; };
+		BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsCategoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C3CE8626B9B35D003821DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C3CE9F26B9B363003821DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C3CEAA26B9B363003821DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C3CE8026B9B35D003821DB = {
+			isa = PBXGroup;
+			children = (
+				B9C3CE8B26B9B35D003821DB /* CoinSaver */,
+				B9C3CEA526B9B363003821DB /* CoinSaverTests */,
+				B9C3CEB026B9B363003821DB /* CoinSaverUITests */,
+				B9C3CE8A26B9B35D003821DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C3CE8A26B9B35D003821DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3CE8926B9B35D003821DB /* CoinSaver.app */,
+				B9C3CEA226B9B363003821DB /* CoinSaverTests.xctest */,
+				B9C3CEAD26B9B363003821DB /* CoinSaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C3CE8B26B9B35D003821DB /* CoinSaver */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3CE8C26B9B35D003821DB /* AppDelegate.swift */,
+				B9C3CE8E26B9B35D003821DB /* SceneDelegate.swift */,
+				B9C3CE9026B9B35D003821DB /* ViewController.swift */,
+				B9C3CE9226B9B35D003821DB /* Main.storyboard */,
+				BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */,
+				BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */,
+				BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */,
+				BDD1CB2A26BAFEC000B2A609 /* SavingsViewController.swift */,
+				BDD1CB2826BAFEAE00B2A609 /* HealthcareViewController.swift */,
+				BDD1CB2626BAFE9E00B2A609 /* EmergencyViewController.swift */,
+				BDD1CB2426BAFE9000B2A609 /* StudentLoansViewController.swift */,
+				BDD1CB2226BAFE7F00B2A609 /* InvestmentsViewController.swift */,
+				B9C3CECB26BA1B87003821DB /* OtherViewController.swift */,
+				B9C3CEC926BA1B6C003821DB /* TransportationViewController.swift */,
+				B9C3CEC726BA1B4C003821DB /* ShoppingViewController.swift */,
+				B9C3CEC526BA1B31003821DB /* ActivitiesViewController.swift */,
+				B9C3CEC326BA1B0A003821DB /* GroceriesViewController.swift */,
+				B9C3CEC126BA1ABE003821DB /* RentViewController.swift */,
+				B9C3CE9826B9B362003821DB /* Assets.xcassets */,
+				B9C3CE9A26B9B362003821DB /* LaunchScreen.storyboard */,
+				B9C3CE9D26B9B362003821DB /* Info.plist */,
+				B9C3CE9526B9B35D003821DB /* CoinSaver.xcdatamodeld */,
+			);
+			path = CoinSaver;
+			sourceTree = "<group>";
+		};
+		B9C3CEA526B9B363003821DB /* CoinSaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3CEA626B9B363003821DB /* CoinSaverTests.swift */,
+				B9C3CEA826B9B363003821DB /* Info.plist */,
+			);
+			path = CoinSaverTests;
+			sourceTree = "<group>";
+		};
+		B9C3CEB026B9B363003821DB /* CoinSaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9C3CEB126B9B363003821DB /* CoinSaverUITests.swift */,
+				B9C3CEB326B9B363003821DB /* Info.plist */,
+			);
+			path = CoinSaverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C3CE8826B9B35D003821DB /* CoinSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C3CEB626B9B363003821DB /* Build configuration list for PBXNativeTarget "CoinSaver" */;
+			buildPhases = (
+				B9C3CE8526B9B35D003821DB /* Sources */,
+				B9C3CE8626B9B35D003821DB /* Frameworks */,
+				B9C3CE8726B9B35D003821DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinSaver;
+			productName = CoinSaver;
+			productReference = B9C3CE8926B9B35D003821DB /* CoinSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9C3CEA126B9B363003821DB /* CoinSaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C3CEB926B9B363003821DB /* Build configuration list for PBXNativeTarget "CoinSaverTests" */;
+			buildPhases = (
+				B9C3CE9E26B9B363003821DB /* Sources */,
+				B9C3CE9F26B9B363003821DB /* Frameworks */,
+				B9C3CEA026B9B363003821DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C3CEA426B9B363003821DB /* PBXTargetDependency */,
+			);
+			name = CoinSaverTests;
+			productName = CoinSaverTests;
+			productReference = B9C3CEA226B9B363003821DB /* CoinSaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9C3CEAC26B9B363003821DB /* CoinSaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C3CEBC26B9B363003821DB /* Build configuration list for PBXNativeTarget "CoinSaverUITests" */;
+			buildPhases = (
+				B9C3CEA926B9B363003821DB /* Sources */,
+				B9C3CEAA26B9B363003821DB /* Frameworks */,
+				B9C3CEAB26B9B363003821DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9C3CEAF26B9B363003821DB /* PBXTargetDependency */,
+			);
+			name = CoinSaverUITests;
+			productName = CoinSaverUITests;
+			productReference = B9C3CEAD26B9B363003821DB /* CoinSaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C3CE8126B9B35D003821DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B9C3CE8826B9B35D003821DB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B9C3CEA126B9B363003821DB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B9C3CE8826B9B35D003821DB;
+					};
+					B9C3CEAC26B9B363003821DB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B9C3CE8826B9B35D003821DB;
+					};
+				};
+			};
+			buildConfigurationList = B9C3CE8426B9B35D003821DB /* Build configuration list for PBXProject "CoinSaver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9C3CE8026B9B35D003821DB;
+			productRefGroup = B9C3CE8A26B9B35D003821DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C3CE8826B9B35D003821DB /* CoinSaver */,
+				B9C3CEA126B9B363003821DB /* CoinSaverTests */,
+				B9C3CEAC26B9B363003821DB /* CoinSaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C3CE8726B9B35D003821DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C3CE9C26B9B362003821DB /* LaunchScreen.storyboard in Resources */,
+				B9C3CE9926B9B362003821DB /* Assets.xcassets in Resources */,
+				B9C3CE9426B9B35D003821DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C3CEA026B9B363003821DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C3CEAB26B9B363003821DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C3CE8526B9B35D003821DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD1CB2D26BB052B00B2A609 /* HomePageViewController.swift in Sources */,
+				BDD1CB2526BAFE9000B2A609 /* StudentLoansViewController.swift in Sources */,
+				BDD1CB2326BAFE7F00B2A609 /* InvestmentsViewController.swift in Sources */,
+				BDD1CB2F26BB115100B2A609 /* SpendingsViewController.swift in Sources */,
+				B9C3CECC26BA1B87003821DB /* OtherViewController.swift in Sources */,
+				B9C3CEC826BA1B4C003821DB /* ShoppingViewController.swift in Sources */,
+				B9C3CEC426BA1B0A003821DB /* GroceriesViewController.swift in Sources */,
+				B9C3CEC226BA1ABE003821DB /* RentViewController.swift in Sources */,
+				B9C3CE9726B9B35D003821DB /* CoinSaver.xcdatamodeld in Sources */,
+				BDD1CB2926BAFEAE00B2A609 /* HealthcareViewController.swift in Sources */,
+				BDD1CB2B26BAFEC000B2A609 /* SavingsViewController.swift in Sources */,
+				B9C3CE9126B9B35D003821DB /* ViewController.swift in Sources */,
+				B9C3CEC626BA1B31003821DB /* ActivitiesViewController.swift in Sources */,
+				B9C3CE8D26B9B35D003821DB /* AppDelegate.swift in Sources */,
+				BDD1CB3126BB11A300B2A609 /* SavingsCategoryViewController.swift in Sources */,
+				B9C3CECA26BA1B6C003821DB /* TransportationViewController.swift in Sources */,
+				B9C3CE8F26B9B35D003821DB /* SceneDelegate.swift in Sources */,
+				BDD1CB2726BAFE9E00B2A609 /* EmergencyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C3CE9E26B9B363003821DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C3CEA726B9B363003821DB /* CoinSaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C3CEA926B9B363003821DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C3CEB226B9B363003821DB /* CoinSaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9C3CEA426B9B363003821DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C3CE8826B9B35D003821DB /* CoinSaver */;
+			targetProxy = B9C3CEA326B9B363003821DB /* PBXContainerItemProxy */;
+		};
+		B9C3CEAF26B9B363003821DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9C3CE8826B9B35D003821DB /* CoinSaver */;
+			targetProxy = B9C3CEAE26B9B363003821DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9C3CE9226B9B35D003821DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C3CE9326B9B35D003821DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9C3CE9A26B9B362003821DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C3CE9B26B9B362003821DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9C3CEB426B9B363003821DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9C3CEB526B9B363003821DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C3CEB726B9B363003821DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.CoinSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9C3CEB826B9B363003821DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.CoinSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9C3CEBA26B9B363003821DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinSaverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.CoinSaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinSaver.app/CoinSaver";
+			};
+			name = Debug;
+		};
+		B9C3CEBB26B9B363003821DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinSaverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.CoinSaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinSaver.app/CoinSaver";
+			};
+			name = Release;
+		};
+		B9C3CEBD26B9B363003821DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.CoinSaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinSaver;
+			};
+			name = Debug;
+		};
+		B9C3CEBE26B9B363003821DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CoinSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Test.CoinSaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinSaver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C3CE8426B9B35D003821DB /* Build configuration list for PBXProject "CoinSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C3CEB426B9B363003821DB /* Debug */,
+				B9C3CEB526B9B363003821DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C3CEB626B9B363003821DB /* Build configuration list for PBXNativeTarget "CoinSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C3CEB726B9B363003821DB /* Debug */,
+				B9C3CEB826B9B363003821DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C3CEB926B9B363003821DB /* Build configuration list for PBXNativeTarget "CoinSaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C3CEBA26B9B363003821DB /* Debug */,
+				B9C3CEBB26B9B363003821DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C3CEBC26B9B363003821DB /* Build configuration list for PBXNativeTarget "CoinSaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C3CEBD26B9B363003821DB /* Debug */,
+				B9C3CEBE26B9B363003821DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9C3CE9526B9B35D003821DB /* CoinSaver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9C3CE9626B9B35D003821DB /* CoinSaver.xcdatamodel */,
+			);
+			currentVersion = B9C3CE9626B9B35D003821DB /* CoinSaver.xcdatamodel */;
+			path = CoinSaver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9C3CE8126B9B35D003821DB /* Project object */;
+}
