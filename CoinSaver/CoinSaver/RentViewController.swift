@@ -12,6 +12,10 @@ class RentViewController: UIViewController {
     @IBOutlet weak var rentGoalInput: UITextField!
     @IBOutlet weak var rentLabel: UILabel!
     @IBOutlet weak var rentGoalOutput: UILabel!
+    @IBOutlet weak var rentLogInput: UITextField!
+    @IBOutlet weak var rentSpentOutput: UILabel!
+    @IBOutlet weak var rentRemainingLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +28,18 @@ class RentViewController: UIViewController {
         rentGoalOutput.text = "Goal: $\(rentGoalInput.text!)"
     }
     
+    @IBAction func rentLogButtonTapped(_ sender: UIButton) {
+        rentSpentOutput.text = "Spent: $\(rentLogInput.text!)"
+        
+        guard let rentGoalNumber = Double(rentGoalInput.text!) else { return  }
+        
+        if let rentLogNumber = Double(rentLogInput.text!) {
+            let rentRemainingNumber = rentGoalNumber - rentLogNumber
+            rentRemainingLabel.text = "$\(rentRemainingNumber) out of $\(rentGoalNumber) remaining"
+        }
+    }
+    
+
     
     /*
     // MARK: - Navigation

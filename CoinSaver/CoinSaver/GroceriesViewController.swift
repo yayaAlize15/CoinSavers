@@ -12,6 +12,9 @@ class GroceriesViewController: UIViewController {
     @IBOutlet weak var groceriesGoalInput: UITextField!
     @IBOutlet weak var groceriesLabel: UILabel!
     @IBOutlet weak var groceriesGoalOutput: UILabel!
+    @IBOutlet weak var groceriesLogInput: UITextField!
+    @IBOutlet weak var groceriesSpentOutput: UILabel!
+    @IBOutlet weak var groceriesRemainingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +27,20 @@ class GroceriesViewController: UIViewController {
         groceriesGoalOutput.text = "Goal: $\(groceriesGoalInput.text!)"
     }
     
-
+    @IBAction func groceriesLogButtonTapped(_ sender: UIButton) {
+        groceriesSpentOutput.text = "Spent: $\( String(describing: groceriesLogInput.text))"
+        
+        guard let groceriesGoalNumber = Double(groceriesGoalInput.text!) else {
+            return
+            }
+        
+        if let groceriesLogNumber = Double(groceriesLogInput.text!) {
+            let groceriesRemainingNumber = groceriesGoalNumber - groceriesLogNumber
+            
+            groceriesRemainingLabel.text = "$\(groceriesRemainingNumber) out of $\(groceriesGoalNumber) remaining"
+        }
+    }
+    
     
     /*
     // MARK: - Navigation

@@ -12,6 +12,9 @@ class ActivitiesViewController: UIViewController {
     @IBOutlet weak var activitiesGoalInput: UITextField!
     @IBOutlet weak var activitiesLabel: UILabel!
     @IBOutlet weak var activitiesGoalOutput: UILabel!
+    @IBOutlet weak var activitiesSpentOutput: UILabel!
+    @IBOutlet weak var activitiesLogInput: UITextField!
+    @IBOutlet weak var activitiesRemainingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +24,19 @@ class ActivitiesViewController: UIViewController {
     
     @IBAction func activitiesGoalButtonTapped(_ sender: UIButton) {
         activitiesGoalOutput.text = "Goal: $\(activitiesGoalInput.text!)"
+    }
+    
+    @IBAction func activitiesLogButtonTapped(_ sender: UIButton) {
+        activitiesSpentOutput.text = "Spent: $\(activitiesLogInput.text!)"
+        
+        guard let activitiesGoalNumber = Double(activitiesGoalInput.text!) else {
+            return
+        }
+        
+        if let activitiesLogNumber = Double(activitiesLogInput.text!) {
+            let activitiesRemainingNumber = activitiesGoalNumber - activitiesLogNumber
+            activitiesRemainingLabel.text = "$\(activitiesRemainingNumber) out of $\(activitiesGoalNumber) remaining"
+        }
     }
     
     /*

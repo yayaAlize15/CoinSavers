@@ -12,6 +12,9 @@ class StudentLoansViewController: UIViewController {
     @IBOutlet weak var studentLoansGoalInput: UITextField!
     @IBOutlet weak var studentLoansLabel: UILabel!
     @IBOutlet weak var studentLoansGoalOutput: UILabel!
+    @IBOutlet weak var studentLoansSpentOutput: UILabel!
+    @IBOutlet weak var studentLoansLogInput: UITextField!
+    @IBOutlet weak var studentLoansRemainingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +24,19 @@ class StudentLoansViewController: UIViewController {
     
     @IBAction func studentLoansGoalButtonTapped(_ sender: UIButton) {
         studentLoansGoalOutput.text = "Goal: $\(studentLoansGoalInput.text!)"
+    }
+    
+    @IBAction func studentLoansLogButtonTapped(_ sender: UIButton) {
+        studentLoansSpentOutput.text = "Saved: $\(studentLoansLogInput.text!)"
+        
+        guard let studentLoansGoalNumber = Double(studentLoansGoalInput.text!) else {
+            return
+        }
+        
+        if let studentLoansLogNumber = Double(studentLoansLogInput.text!) {
+            let studentLoansRemainingNumber = studentLoansGoalNumber - studentLoansLogNumber
+            studentLoansRemainingLabel.text = "$\(studentLoansRemainingNumber) out of $\(studentLoansGoalNumber) remaining"
+        }
     }
     
     /*

@@ -12,6 +12,9 @@ class ShoppingViewController: UIViewController {
     @IBOutlet weak var shoppingGoalInput: UITextField!
     @IBOutlet weak var shoppingLabel: UILabel!
     @IBOutlet weak var shoppingGoalOutput: UILabel!
+    @IBOutlet weak var shoppingSpentOutput: UILabel!
+    @IBOutlet weak var shoppingLogInput: UITextField!
+    @IBOutlet weak var shopppingRemainingLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +24,18 @@ class ShoppingViewController: UIViewController {
     
     @IBAction func shoppingGoalButtonTapped(_ sender: UIButton) {
         shoppingGoalOutput.text = "Goal: $\(shoppingGoalInput.text!)"
+    }
+    @IBAction func shoppingLogButtonTapped(_ sender: UIButton) {
+        shoppingSpentOutput.text = "Spent: $\(shoppingLogInput.text!)"
+        
+        guard let shoppingGoalNumber = Double(shoppingGoalInput.text!) else {
+            return
+        }
+        
+        if let shoppingLogNumber = Double(shoppingLogInput.text!) {
+            let shoppingRemainingNumber = shoppingGoalNumber - shoppingLogNumber
+            shopppingRemainingLabel.text = "$\(shoppingRemainingNumber) out of $\(shoppingGoalNumber) remaining"
+        }
     }
     
     /*
