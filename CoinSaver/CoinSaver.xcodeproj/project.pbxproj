@@ -30,6 +30,7 @@
 		BDD1CB2D26BB052B00B2A609 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */; };
 		BDD1CB2F26BB115100B2A609 /* SpendingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */; };
 		BDD1CB3126BB11A300B2A609 /* SavingsCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */; };
+		F9F411F226BC6A3800809DA2 /* InfoTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F411F126BC6A3800809DA2 /* InfoTipsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		BDD1CB2C26BB052B00B2A609 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		BDD1CB2E26BB115100B2A609 /* SpendingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingsViewController.swift; sourceTree = "<group>"; };
 		BDD1CB3026BB11A300B2A609 /* SavingsCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsCategoryViewController.swift; sourceTree = "<group>"; };
+		F9F411F126BC6A3800809DA2 /* InfoTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTipsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				B9C3CE9A26B9B362003821DB /* LaunchScreen.storyboard */,
 				B9C3CE9D26B9B362003821DB /* Info.plist */,
 				B9C3CE9526B9B35D003821DB /* CoinSaver.xcdatamodeld */,
+				F9F411F126BC6A3800809DA2 /* InfoTipsViewController.swift */,
 			);
 			path = CoinSaver;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				BDD1CB2D26BB052B00B2A609 /* HomePageViewController.swift in Sources */,
 				BDD1CB2526BAFE9000B2A609 /* StudentLoansViewController.swift in Sources */,
 				BDD1CB2326BAFE7F00B2A609 /* InvestmentsViewController.swift in Sources */,
+				F9F411F226BC6A3800809DA2 /* InfoTipsViewController.swift in Sources */,
 				BDD1CB2F26BB115100B2A609 /* SpendingsViewController.swift in Sources */,
 				B9C3CECC26BA1B87003821DB /* OtherViewController.swift in Sources */,
 				B9C3CEC826BA1B4C003821DB /* ShoppingViewController.swift in Sources */,
