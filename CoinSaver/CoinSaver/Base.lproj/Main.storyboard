@@ -611,7 +611,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tW0-uV-FlC">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="3000"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4S5-bO-06W">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
@@ -623,81 +623,98 @@
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byg-9U-d4E">
-                                                <rect key="frame" x="8" y="85" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byg-9U-d4E">
+                                                <rect key="frame" x="23" y="39" width="375" height="268"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">1. Take some time to calculate your income every month. This can be any money that is coming in and being used, whether it is from jobs, work study, or money that is being given to you. From there, you will get an idea of the amount of total money that you can use for your budget.</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMw-VE-hX6">
-                                                <rect key="frame" x="8" y="178" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ops-Rm-Vpg">
+                                                <rect key="frame" x="23" y="495" width="369" height="297"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">3. Build and plan your budget. After calculating how much money is coming in each month, divide up and estimate the amount of money you will need to set aside for your needs first. This may take a few tries if you are new to managing your own finances. After budgeting for your needs, budget for your savings, like investments and your emergency fund. Lastly, divide up the leftover money into your wants.</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ops-Rm-Vpg">
-                                                <rect key="frame" x="8" y="270" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSW-g1-hc8">
+                                                <rect key="frame" x="23" y="781" width="369" height="241"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">4. The 50-30-20 rule. If you are feeling lost in starting your budget plan, one point to jump off of is this popular rule. Fifty percent of your income goes towards your essentials. Thirty percent of your income goes towards paying off debt. And 20 percent of your income goes towards your savings.</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1N3-73-EOi">
-                                                <rect key="frame" x="8" y="368" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="260-gB-gEr">
+                                                <rect key="frame" x="23" y="1013" width="369" height="147"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">5. Stick to your budget. This is arguably the hardest part, but sticking to your plan after you have created it is crucial. Otherwise all your hard work will go down the drain!</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hH-IN-6pv">
-                                                <rect key="frame" x="8" y="453" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1N3-73-EOi">
+                                                <rect key="frame" x="23" y="282" width="369" height="248"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">2. Distinguish between your wants and needs. This is very important in creating a balanced budget. Needs include things like housing, food, and water. Wants include things like coffee, eating out, or going to the movies. A good budget will factor in and balance both wants and needs.
+</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74I-AW-jUS">
-                                                <rect key="frame" x="8" y="553" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWf-yk-PTo">
+                                                <rect key="frame" x="23" y="1125" width="369" height="397"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">6. Start building your credit score responsibly as early as possible. This will be extremely helpful to you in the future when you start making your first big purchases, like buying a car or your first home. In order to start building your credit, shop responsibly and be sure to make your payments on time. One good habit for students to build credit is to only buy what you know you have the money for. If you do need to borrow, only borrow what you need and pay it off as soon as possible.</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Idr-1f-KNh">
-                                                <rect key="frame" x="8" y="646" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCb-PE-FLA">
+                                                <rect key="frame" x="23" y="1499" width="378" height="389"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">7. Set aside a little money each month for an emergency fund. It's important to have some money saved for any unexpected expenses or emergencies. One way to fight the temptation of using your emergency funds is to create a separate savings account and move those emergency savings from your checking account to the savings account. A good guideline to follow for the amount you should be saving each month is about 10% of your paycheck each month.</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJ6-tq-pbQ">
-                                                <rect key="frame" x="8" y="749" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rj4-H3-TgK">
+                                                <rect key="frame" x="23" y="1863" width="375" height="149"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">8. Invest your money earlier rather than later. Do some research on the type of investing you want to engage in, and let your money grow. In investing, time is money!</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FF2-ET-7wW">
-                                                <rect key="frame" x="8" y="860" width="398" height="77"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="17" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaE-Tz-8FW">
+                                                <rect key="frame" x="23" y="2002" width="369" height="333"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="20"/>
+                                                <string key="text">9. A basic guide to online banking. If your bank offers online banking services, it can make managing your accounts much easier, but it is also important to be aware of where your accounts are connected. Oftentimes, banks will allow you to easily transfer your money between your accounts and deposit checks through online banking. It allows you to have a lot more control over your money and makes transactions convenient.</string>
+                                                <fontDescription key="fontDescription" name="NotoSansMyanmar-Regular" family="Noto Sans Myanmar" pointSize="16"/>
                                                 <color key="textColor" red="0.23921568630000001" green="0.25098039220000001" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.95686274510000002" green="0.94509803920000002" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="3000" id="KmB-dt-ZX4"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2000" id="dsU-AI-8dy"/>
                                             <constraint firstAttribute="height" constant="1500" id="kVQ-R2-uiR"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="4S5-bO-06W" firstAttribute="top" secondItem="tW0-uV-FlC" secondAttribute="top" id="7JR-bd-Te3"/>
+                                    <constraint firstAttribute="bottom" secondItem="4S5-bO-06W" secondAttribute="bottom" id="7du-f7-ELu"/>
                                     <constraint firstAttribute="trailing" secondItem="4S5-bO-06W" secondAttribute="trailing" id="DM1-h7-ujk"/>
+                                    <constraint firstItem="4S5-bO-06W" firstAttribute="top" secondItem="tW0-uV-FlC" secondAttribute="top" id="Qhb-df-poq"/>
+                                    <constraint firstItem="4S5-bO-06W" firstAttribute="leading" secondItem="tW0-uV-FlC" secondAttribute="leading" id="Vbs-Xn-7AQ"/>
                                     <constraint firstAttribute="bottom" secondItem="4S5-bO-06W" secondAttribute="bottom" id="Wny-Jn-qAh"/>
                                     <constraint firstItem="4S5-bO-06W" firstAttribute="leading" secondItem="tW0-uV-FlC" secondAttribute="leading" id="aZ6-nm-Dh5"/>
+                                    <constraint firstAttribute="height" constant="3000" id="oSu-Di-Ssc"/>
+                                    <constraint firstAttribute="trailing" secondItem="4S5-bO-06W" secondAttribute="trailing" id="snd-NW-7hU"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -705,11 +722,15 @@
                         <color key="backgroundColor" red="0.95686274510000002" green="0.94509803920000002" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tW0-uV-FlC" firstAttribute="top" secondItem="Rho-oK-xxD" secondAttribute="top" id="3xG-wB-bAP"/>
+                            <constraint firstItem="tW0-uV-FlC" firstAttribute="leading" secondItem="Rho-oK-xxD" secondAttribute="leading" id="5KL-LF-BlV"/>
+                            <constraint firstItem="tW0-uV-FlC" firstAttribute="top" secondItem="Rho-oK-xxD" secondAttribute="top" id="7KG-XH-wG0"/>
                             <constraint firstItem="4S5-bO-06W" firstAttribute="height" secondItem="ALV-sN-rbC" secondAttribute="height" multiplier="1.67411" id="CQF-Vd-63e"/>
+                            <constraint firstItem="tW0-uV-FlC" firstAttribute="trailing" secondItem="Rho-oK-xxD" secondAttribute="trailing" id="Q5K-Fe-bTM"/>
                             <constraint firstAttribute="bottom" secondItem="tW0-uV-FlC" secondAttribute="bottom" id="VSc-97-U5o"/>
                             <constraint firstItem="4S5-bO-06W" firstAttribute="width" secondItem="ALV-sN-rbC" secondAttribute="width" id="mmE-hx-cCq"/>
                             <constraint firstItem="tW0-uV-FlC" firstAttribute="trailing" secondItem="Rho-oK-xxD" secondAttribute="trailing" id="sTU-QX-XGI"/>
                             <constraint firstItem="tW0-uV-FlC" firstAttribute="leading" secondItem="Rho-oK-xxD" secondAttribute="leading" id="xr5-7m-s1B"/>
+                            <constraint firstAttribute="bottom" secondItem="tW0-uV-FlC" secondAttribute="bottom" id="ytE-ge-G4P"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OOg-uF-E96"/>
